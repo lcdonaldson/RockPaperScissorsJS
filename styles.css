@@ -1,0 +1,84 @@
+/************************
+
+Table of contents
+____________________________
+
+ - Layout
+ - Typography
+ - Images & Media
+ - Footer
+ - Media queries
+ 
+************************/
+
+/*********************
+ RESETS
+*********************/
+
+html {
+ box-sizing: border-box;
+ font: 12pt 'Open Sans';
+ font-weight: 300;
+ height: 100%;
+}
+
+*, *::before, *::after {
+ box-sizing: inherit;
+ color: inherit;
+
+}
+
+/*********************
+ Layout
+*********************/
+
+.hero {
+    background-color: green;
+}
+
+main {
+    width: 50em;
+    height: 50em;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.breakout {
+    height: 25em;
+    width: 24em;
+    margin: 0 auto;
+    margin-top: 2em;
+    border: 2px solid white;
+    background-color: rgba(120, 219, 164, 0.61);
+    border-radius: 2em;
+}
+
+.rps {
+    width: 12em;
+    background-color: aqua;
+    border: 0.2em solid transparent;
+    border-radius: 0.6em;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+/*********************
+ Typography
+*********************/
+
+.font-effect-fire-animation {
+    font-size: 4em;
+    font-family: 'Lobster';
+    color: black;
+    margin: 0;
+    padding: 0.5em;
+}
+
+li {
+    font-family: 'Helvetica';
+    font-size: 14pt;
+    text-transform: uppercase;
+    font-weight: bold;
+    list-style-type: none;
+    margin-left: -1.8em;
+}
