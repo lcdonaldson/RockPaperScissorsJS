@@ -5,3 +5,5 @@ So I decided to make a rock paper scissors game. I roughed out some css to style
 
 ![Alt text](https://github.com/lcdonaldson/RockPaperScissorsJS/blob/master/rps_screenshot.png)
 
+(just as a side note I have built this in python as well, which will show up soon)
+
