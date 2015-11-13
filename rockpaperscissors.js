@@ -4,7 +4,12 @@
 $(function () {
     $('.rps').on('click', function () {
 
+    // initial statement when using app
+
     var userChoice = prompt("Do you choose rock, paper or scissors?");
+
+    // math method to set search parameters
+
     var computerChoice = Math.random();
     if (computerChoice < 0.34) {
         computerChoice = "rock";
@@ -13,6 +18,8 @@ $(function () {
     } else {
         computerChoice = "scissors";
     } console.log("Computer: " + computerChoice);
+
+    // logical function presenting the outcomes of the user and computer
 
     var compare = function (choice1, choice2) {
         if (choice1 === choice2) {
