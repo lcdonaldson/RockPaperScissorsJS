@@ -33,7 +33,7 @@ html {
 *********************/
 
 .hero {
-    background-color: green;
+    background-color: #009900;
 }
 
 main {
@@ -55,7 +55,7 @@ main {
 
 .rps {
     width: 12em;
-    background-color: aqua;
+    background-color: #00FFFF;
     border: 0.2em solid transparent;
     border-radius: 0.6em;
     font-size: 1em;
